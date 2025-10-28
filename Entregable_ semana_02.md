@@ -10,7 +10,36 @@
 | **Ejemplo típico** | C, Pascal. | Java, Python, C++, C#. |
 
 ---
+En este ejemplo utilizare el agendamiento de citas para una odontologia
 
-## EJEMPLO DE PROGRAMACION ESTRUCTURADA
+## EJEMPLO CONCEPTUAL DE PROGRAMACION ESTRUCTURADA 
 
-## EJEMPLO DE POO
+-Se definen las variables del programa ejemplo:
+  Paciente = Andres Gutierrez
+  Fecha = 27/10/2025
+  Hora = 7:30 AM
+  Motivo = Blanqueamiento dental
+-Se crea una funcion para mostrar los datos de la cita(se utiliza la funcion print).
+  CITA ODONTOLOGICA
+  Paciente: Andres Gutierrez
+  Fecha: 27/10/2025
+  Hora: 7:30 AM
+  Motivo: Blanqueamiento dental
+-Se genera otra funcion para cambiar la hora de la cita.
+-Se crea otra funcion para reagendar la cita y mostrar el mensaje con la nueva informacion.
+
+## EJEMPLO CONCEPTUAL DE POO
+
+-Se comienza por crear la clase y definir sus atributos:
+  -Clase cita_odontologica
+      Atributos: Nombre, fecha, hora, motivo.
+- A los atributos se le definen los metodos (acciones del objeto)
+  -Mostrar cita
+  -Cambiar hora
+  -Agendar Cita
+-Crear un objeto de tipo cita_odontologica
+  -Cita 1 = cita_odontologica
+- Se llaman los métodos del objeto
+  -cita1.mostrarcita
+  -cita1.cambiarhora
+  -cita1.agendarcita
