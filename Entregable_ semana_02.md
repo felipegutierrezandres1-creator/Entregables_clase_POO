@@ -30,16 +30,16 @@ En este ejemplo utilizare el agendamiento de citas para una odontologia
 
 ## EJEMPLO CONCEPTUAL DE POO
 
--Se comienza por crear la clase y definir sus atributos:
-  -Clase cita_odontologica
+Se comienza por crear la clase y definir sus atributos:
+  Clase cita_odontologica
       Atributos: Nombre, fecha, hora, motivo.
-- A los atributos se le definen los metodos (acciones del objeto)
-  -Mostrar cita
-  -Cambiar hora
-  -Agendar Cita
--Crear un objeto de tipo cita_odontologica
-  -Cita 1 = cita_odontologica
-- Se llaman los métodos del objeto
-  -cita1.mostrarcita
-  -cita1.cambiarhora
-  -cita1.agendarcita
+A los atributos se le definen los metodos (acciones del objeto)
+  Mostrar cita
+  Cambiar hora
+  Agendar Cita
+Crear un objeto de tipo cita_odontologica
+  Cita 1 = cita_odontologica
+Se llaman los métodos del objeto
+  cita1.mostrarcita
+  cita1.cambiarhora
+  cita1.agendarcita
